@@ -8,9 +8,9 @@ const Header = (props) => {
     <div>
       <nav className="navbar navbar-expand-sm navbar-dark bg-danger mb-3 py-0">
         <div className="container">
-          <a href="/" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
             {branding}
-          </a>
+          </Link>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link to="/" className="nav-link">
